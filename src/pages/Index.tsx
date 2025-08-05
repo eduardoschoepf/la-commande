@@ -82,18 +82,22 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       {/* Fixed Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-primary text-primary-foreground py-4 px-4 shadow-lg">
-        <div className="container mx-auto">
-          <div className="text-center mb-4">
+        <div className="container mx-auto flex flex-col sm:flex-row items-center justify-between">
+          {/* Logo à esquerda */}
+          <div className="flex items-center gap-4 mb-4 sm:mb-0">
             <img 
-              src="/uploads/f05169d6-6da0-4c5c-afec-efbbd76434c5.png" 
+              src="uploads/f05169d6-6da0-4c5c-afec-efbbd76434c5.png" 
               alt="La Commande" 
-              className="h-20 mx-auto mb-4"
+              className="h-20"
             />
-            {/*<h1 className="text-3xl font-bold mb-2">XIS DO CHEF</h1>*/}
-            <p className="text-lg opacity-90">NOSSO CARDÁPIO</p>
+            <div className="hidden sm:block">
+              {/*<h1 className="text-3xl font-bold mb-2">XIS DO CHEF</h1>
+              <p className="text-lg opacity-90">NOSSO CARDÁPIO</p>*/}
+            </div>
           </div>
-          
-          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 text-sm">
+
+          {/* Contatos à direita */}
+          <div className="flex flex-col sm:flex-row items-center gap-4 text-sm text-right">
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4" />
               <span>Horário: 18:00 às 23:00hs</span>
@@ -105,6 +109,7 @@ const Index = () => {
           </div>
         </div>
       </header>
+
 
       {/* Spacer for fixed header */}
       <div className="h-48"></div>
