@@ -62,7 +62,7 @@ export const CheckoutForm = ({ cartItems, totalPrice, onBack, onClearCart }: Che
     }
 
     const message = generateWhatsAppMessage();
-    const whatsappUrl = `https://wa.me/5551998587794?text=${message}`;
+    const whatsappUrl = `https://wa.me/5551997041908?text=${message}`;
     
     window.open(whatsappUrl, '_blank');
     

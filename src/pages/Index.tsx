@@ -104,7 +104,7 @@ const Index = () => {
             </div>
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
-              <span>Delivery: (51) 99858-7794</span>
+              <span>Delivery: (51) 99999-9999</span>
             </div>
           </div>
         </div>
