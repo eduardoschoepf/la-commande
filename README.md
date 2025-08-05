@@ -12,40 +12,6 @@ Este projeto foi desenvolvido para simplificar o processo de pedidos em hamburgu
 - ✔ **Formulário de dados pessoais** (nome, telefone, endereço)
 - ✔ **Envio automático para WhatsApp** com mensagem formatada
 
-## 🖼️ Screenshots
-
-### 1. Interface do Cardápio
-![Interface do Cardápio](./screenshots/cardapio.jpg)  
-*(Tela inicial com a lista de hambúrgueres e adicionais)*
-
-### 2. Carrinho de Compras
-![Carrinho de Compras](./screenshots/carrinho.jpg)  
-*(Visualização dos itens selecionados e valor total)*
-
-### 3. Dados Pessoais
-![Formulário de Dados](./screenshots/dados.jpg)  
-*(Tela para preenchimento de nome, telefone e endereço)*
-
-### 4. Mensagem Recebida no WhatsApp
-```
-🍔 NOVO PEDIDO 🍔
-
-👤 Cliente: José da Silva  
-📱 Telefone: 51990101000  
-📍 Endereço: Rua de Castro Almeida  
-🏘 Bairro: Centro  
-💳 Pagamento: pix  
-
-📋 ITENS DO PEDIDO:  
-1. X-CARNE x1 - R$ 20,00  
-2. COCA-COLA 2L x1 - R$ 15,00  
-
-💰 TOTAL: R$ 35,00  
-
-⏰ Horário do pedido: 01/08/2025, 19:04:10  
-``` 
-*(Exemplo de pedido recebido pelo vendedor formatado)*
-
 ## 🛠️ Como Usar
 
 1. **Selecione os itens** no cardápio e adicione ao carrinho.
@@ -53,3 +19,22 @@ Este projeto foi desenvolvido para simplificar o processo de pedidos em hamburgu
 3. **Preencha seus dados** (nome, telefone e endereço).
 4. **Clique em "Enviar Pedido"** para receber a confirmação via WhatsApp.
 
+
+## 🖼️ Screenshots
+
+### 1. Interface do Cardápio
+![Interface do Cardápio](./public/screenshots/la_commande_cardapio.jpg)  
+*(Tela inicial com a lista de hambúrgueres e adicionais)*
+
+### 2. Carrinho de Compras
+![Carrinho de Compras](./public/screenshots/la_commande_carrinho.jpg)  
+*(Visualização dos itens selecionados e valor total)*
+
+### 3. Dados Pessoais
+![Formulário de Dados](./public/screenshots/la_commande_formulario.jpg)  
+*(Tela para preenchimento de nome, telefone e endereço)*
+
+### 4. Mensagem Recebida no WhatsApp
+
+![Mensagem WhatsApp](./public/screenshots/la_commande_whatsapp.jpg)
+*(Exemplo de pedido recebido pelo vendedor formatado)*
